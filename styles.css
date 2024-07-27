@@ -1,0 +1,124 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(to right, #f0f0f0, #f9f9f9);
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+
+.resume {
+  background: #fff;
+  width: 800px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  padding: 30px;
+  animation: fadeIn 1s ease-in-out;
+}
+
+header {
+  text-align: center;
+  border-bottom: 2px solid #333;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+}
+
+.header-content h1 {
+  margin: 0;
+  font-size: 2.5em;
+  color: #444;
+}
+
+.header-content p {
+  font-size: 1.2em;
+  color: #666;
+}
+
+h2 {
+  border-left: 5px solid #333;
+  padding-left: 10px;
+  font-size: 1.5em;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.contact ul li {
+  font-size: 1.1em;
+}
+
+.timeline {
+  position: relative;
+  padding-left: 20px;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: #333;
+}
+
+.event {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.event h3 {
+  margin: 0;
+}
+
+.event p {
+  margin: 5px 0;
+}
+
+.event span {
+  display: block;
+  font-size: 0.9em;
+  color: #777;
+}
+
+.skill-bar {
+  background: #f4f4f4;
+  border-radius: 20px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.skill {
+  background: #007bff;
+  padding: 10px;
+  border-radius: 20px 0 0 20px;
+  color: white;
+  font-weight: bold;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
